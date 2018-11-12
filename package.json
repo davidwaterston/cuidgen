@@ -1,0 +1,42 @@
+{
+  "name": "cuidgen",
+  "description": "A command-line interface to generate collision-resistant ids (CUIDs) optimized for horizontal scaling and performance.",
+  "version": "1.0.0",
+  "author": "David Waterston @davidwaterston",
+  "bin": {
+    "cuidgen": "./bin/run"
+  },
+  "bugs": "https://github.com/davidwaterston/cuidgen/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.4",
+    "@oclif/config": "^1.9.0",
+    "@oclif/plugin-help": "^2.1.3",
+    "cuid": "^2.1.4"
+  },
+  "devDependencies": {
+    "@oclif/test": "^1.2.2",
+    "chai": "^4.1.2",
+    "eslint": "^5.7.0",
+    "eslint-config-oclif": "^3.1.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/davidwaterston/cuidgen",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "cuidgen"
+  },
+  "repository": "davidwaterston/cuidgen",
+  "scripts": {}
+}
